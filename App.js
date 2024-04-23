@@ -16,7 +16,7 @@
     app.use(
         cors({
           credentials: true,
-          origin: process.env.FRONTEND_URL
+          origin: [process.env.FRONTEND_URL, "https://a6--tunwa-tongtawee.netlify.app", "https://tunwa-tongtawee.netlify.app"]
         })
        );
        const sessionOptions = {
